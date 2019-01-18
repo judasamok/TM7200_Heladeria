@@ -1,1 +1,16 @@
-body{margin: 0;}
+/*!
+    Theme Name: TM7200_Heladeria
+    Template Them URI: http://srp.ucr.ac.cr/
+    Author: Group TM7200 - III 2019
+    Author URI: http://srp.ucr.ac.cr/
+    Description: Proyecto del curso
+    Version: 1.0
+    License: GNU General Public License v2
+*/
+@import 'fonts';
+@import 'variables';
+@import 'main';
+
+@include font-face('AngelineVintage', 'AngelineVintage', 'AngelineVintageDemo', 'serif');
+@include font-face('ChronicDelivery','ChronicDelivery','ChronicDelivery','serif');
+@include font-face('CoconRegular','CoconRegular','Cocon-Regular','serif');
