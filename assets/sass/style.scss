@@ -10,7 +10,8 @@
 @import 'fonts';
 @import 'variables';
 @import 'main';
+@import 'contact-us';
 
-@include font-face('AngelineVintage', 'AngelineVintage', 'AngelineVintageDemo', 'serif');
+@include font-face('TreMS', 'trebuc', 'TrebuchetMS', 'serif');
 @include font-face('ChronicDelivery','ChronicDelivery','ChronicDelivery','serif');
-@include font-face('CoconRegular','CoconRegular','Cocon-Regular','serif');
+@include font-face('CoconRegular','Cocon-Regular','Cocon-Regular','serif');
