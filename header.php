@@ -8,7 +8,7 @@
    </head>
     <body <?php body_class();?> >
        
-   <nav class="navbar navbar-expand-md" role="navigation">
+   <nav class="navbar navbar-expand-md newNavbar" role="navigation">
       <div class="container">
          <!-- Brand and toggle get grouped for better mobile display -->
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,13 +30,6 @@
       </div>
    </nav>
        
-   <!--<h1>Heladeria</h1>-->
-   <div class="container">
-      <div class="row justify-content-center">
-         <div class="col-lg-5 col-md-5 my-5">
-            <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png" alt="Logo">
-         </div>
-      </div>
-   </div>
+   
    
    
