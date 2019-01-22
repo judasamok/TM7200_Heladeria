@@ -21,13 +21,18 @@ a{
 }
 nav{
     a{
-        color: gray!important;
+        color: $color-white!important;
         font-family: 'CoconRegular';
     }
-    /*button{
-        background-color: gray!important;
-    }*/
 }//end
+.newNavbar{
+    background: rgba(0,0,0,0.7);
+    opacity: .8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
 footer{
     background-color: $color-light-green;
     padding: 1.2em;
