@@ -7,7 +7,7 @@
 
    <div class="container">
       <div class="row justify-content-center">
-         <div class="col-lg-5 col-md-5 my-5">
+         <div class="col-lg-5 col-md-5 marginLogo">
             <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png" alt="Logo">
          </div>
       </div>

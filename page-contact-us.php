@@ -7,7 +7,7 @@
 
     <div class="container">
       <div class="row justify-content-center">
-         <div class="col-lg-5 col-md-5 my-5">
+         <div class="col-lg-5 col-md-5 marginLogo">
             <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png" alt="Logo">
          </div>
       </div>
@@ -75,16 +75,12 @@
 </section>
 
 <section>
-    <div class="container">
+    <div class="container-fliud">
         <div class="col-12-lg col-12-md col-12-sm">
             <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/img/img31-min.jpeg" alt="Img Contact Us">
         </div>
     </div>
 </section>
-
-<div>
-    
-</div>
 
 <?php 
     get_footer();
