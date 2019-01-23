@@ -34,7 +34,7 @@
             <img class="image img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/img/img03-min.png" alt="Products">
         </div>
         <div class="col-md-8 up">
-            <h1 class="text-center">Nuestros<br>Produtos</h1>
+            <h1 class="text-center">Nuestros<br>Productos</h1>
             <h3 class="text-center">Deliciosa variedad de helados</h3>
             <div class="col alignBtn">
                 <a class="buttons buttonProducts" href="./products">Ver más</a>
