@@ -1,12 +1,93 @@
+    <?php get_header(); ?>  
+     <!--Sección arriba-->
+    <section class="image img-fluid">
+        <div class="container">
+      <div class="row justify-content-center">
+         <div class="col-lg-5 col-md-5 marginLogo">
+            <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png" alt="Logo">
+         </div>
+      </div>
+    </div>
+    </section>
+     
+     <!--Nosotros-->
+     <section>
+         <div class="row no-gutters">
+             <div class="col-md-8 espacio">
+                 <h1 class="text-center">Nuestra<br>Historia</h1>
+                    <h3 class="text-center">El principio de todo</h3>
+                    <p class="text-center">Ut auctor luctus leo eleifend porttitor. Curabitur <br>pretit auctor luctus leo eleifend porttitor. Curabitur <br> pretium rutrum turpis, at varius lacus viverra ac. <br> Donec turpis magna, blandit eget sapien consectetur, <br> cursus interdum dolor. Pellentesque habitant morbi <br> tristique senectus et netus et malesuada fames ac <br> turpis egestas.</p>
+                    <div class="col alignBtn">
+                    <a class="buttons " href="./about-us">Leer más</a>
+                </div>
+             </div>
+             <div class="col-md-4">
+                 <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/img/img05-min.jpg" alt="About Us">
+             </div>
+          </div>
+     </section>
+     
+     <!--Productos-->
+     <section>
+         <div class="container-fliud">
+        <div class="col-12-lg col-12-md col-12-sm">
+            <img class="image img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/img/img03-min.png" alt="Products">
+        </div>
+        <div class="col-md-8 up">
+            <h1 class="text-center">Nuestros<br>Productos</h1>
+            <h3 class="text-center">Deliciosa variedad de helados</h3>
+            <div class="col alignBtn">
+                <a class="buttons buttonProducts" href="./products">Ver más</a>
+            </div>
+        </div>
+    </div>
+     </section>
+     
+      <!--Sabores-->
+      <section>
+         <div class="row no-gutters">
+            <div class="col-md-8">
+                <img class="image img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/img/img01-min.jpg" alt="Flavors">
+            </div>
+            <div class="col-md-4 espacio">
+                <h1 class="text-center">Sabores</h1>
+                <h3 class="text-center">Conoce todos nuestros sabores</h3>
+                <p class="text-center">Ut auctor luctus leo eleifend porttitor. <br> Curabitur pretit auctor luctus leo <br> eleifend porttitor. Curabitur pretium <br> rutrum turpis, at varius lacus viverra ac. <br> Donec turpis magna, blandit eget sapien <br> consectetur, cursus interdum dolor.</p>
+                <div class="col alignBtn">
+                    <a class="buttons" href="./sabores">Menú</a>
+                </div>
+            </div>
+        </div>
+      </section>
+      
+      <!--Promociones-->
+      <section>
+          <div class="row no-gutters">
+             <div class="col-md-8 espacio">
+                 <h1 class="text-center">Promociones</h1>
+                    <h3 class="text-center">Enterate de nuestros descuentos</h3>
+                    <p class="text-center">Suscríbete a nuestro newsletter para <br> obtener más información acerca de <br> nuestras promociones.</p>
+                    <!--Formulario de promociones-->
+                    <form id="newsletter">                
+                    <div class="form-group row">
+                        <div class="col-md-4">
+                            <input type="text" class="form-control  formStyle" name="email" placeholder="Correo electrónico"/>
+                        </div>
+                    </div>                    
 
-    <?php get_header(); ?>    
-    <img class="img-full-width" src="<?php bloginfo('template_directory'); ?>/assets/img/img01-min.jpg" alt="Test">
-    <p>
-       Lorem ipsum dolor sit amet, placerat orci leo, ut sed, sed iaculis mi auctor pretium egestas, justo nibh quis diam etiam, ac risus. Vestibulum interdum interdum. Duis erat dictum pellentesque sed, per massa urna est, tortor cras, sit lorem suscipit, id rutrum amet suscipit. Nullam vestibulum molestie in nibh lorem cubilia, cursus non, sed vitae tempus. Mollis vel. 
-    </p>
-    <p>
-       Tristique dolores ullamcorper itaque egestas orci nec, nibh quisque, vitae in quam lacus pharetra tristique pharetra, nam at luctus ultricies non. Nisl magna lectus morbi varius vitae facilisi. Nulla elit justo rutrum turpis nec suspendisse, suspendisse non sit a, lectus nonummy ac.
-    </p>
+                    <div class="row form-group">
+                        <div class="col text-center">
+                            <button type="submit" class="formBtn">Suscribirse</button>
+                        </div>
+                    </div>
+
+                </form>
+             </div>
+             <div class="col-md-4">
+                 <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/img/img04-min.jpg" alt="Promotions">
+             </div>
+          </div>
+      </section>
     
     <?php get_footer(); ?>
 
