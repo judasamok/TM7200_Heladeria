@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background:#ffffff;
+    overflow-x: hidden;
 }
 h1{
     font-family: 'CoconRegular';
@@ -12,7 +13,29 @@ h3{
 p{
     font-family: 'TreMS';
 }
-
+a{
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+    }
+}
+nav{
+    a{
+        color: $color-white!important;
+        font-family: 'CoconRegular';
+    }
+}//end
+.newNavbar{
+    background: rgba(0,0,0,0.7);
+    opacity: .8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.marginLogo{
+    margin: 6.5rem 0 0.5rem 0;
+}
 footer{
     background-color: $color-light-green;
     padding: 1.2em;
@@ -20,19 +43,19 @@ footer{
     font-family: 'CoconRegular';
     color: gray!important;
 }
-
-.button{
+.buttons{
     background-color: $color-white;
     border: 2px solid $color-black;
-    color: $color-white;
-    padding: 16px 32px;
+    color: $color-black;
+    font-family: 'CoconRegular';
+    padding: 8px 28px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-    :hover{
+    &:hover{
         background-color: $color-black;
         color: $color-white;
     }
