@@ -3,7 +3,7 @@
     Template Them URI: http://srp.ucr.ac.cr/
     Author: Group TM7200 - III 2019
     Author URI: http://srp.ucr.ac.cr/
-    Description: Proyecto del curso
+    Description: Proyecto del curso - Plantilla de página web
     Version: 1.0
     License: GNU General Public License v2
 */
@@ -11,6 +11,11 @@
 @import 'variables';
 @import 'main';
 @import 'contact-us';
+@import 'about-us';
+@import 'flavors';
+@import 'locations';
+@import 'promotions';
+@import 'products';
 
 @include font-face('TreMS', 'trebuc', 'TrebuchetMS', 'serif');
 @include font-face('ChronicDelivery','ChronicDelivery','ChronicDelivery','serif');
