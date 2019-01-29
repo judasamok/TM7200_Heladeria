@@ -3,7 +3,7 @@
     get_header();
 ?>
 
-<section class="headerColor">
+<section class="headerColorContactUs">
        
     <div class="container">
       <div class="row justify-content-center">
@@ -42,19 +42,19 @@
                 <form id="contactUs-Sales-Form">
                     <div class="row form-group">
                         <div class="col">
-                            <input type="text" class="form-control formStyle" name="name" placeholder="Nombre completo" />
+                            <input type="text" class="form-control formContactUs" name="name" placeholder="Nombre completo" />
                         </div>
                     </div>
                 
                     <div class="form-group row">
                         <div class="col">
-                            <input type="text" class="form-control  formStyle" name="email" placeholder="Correo electrónico" />
+                            <input type="text" class="form-control  formContactUs" name="email" placeholder="Correo electrónico" />
                         </div>
                     </div>                    
 
                     <div class="form-group row">                        
                         <div class="col">
-                            <textarea name="question" id="question" cols="30" rows="6" class=" form-control formStyle" placeholder="Mensaje..."></textarea>
+                            <textarea name="question" id="question" cols="30" rows="6" class=" form-control formContactUs" placeholder="Mensaje..."></textarea>
                         </div>
                     </div>
 
@@ -71,10 +71,7 @@
 </section>
 
 <section>
-    <div class="container">
-        <div class="col-12-lg col-12-md col-12-sm">
-            <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/img/img29-min.jpeg" alt="Img Contact Us - Sales">
-        </div>
+    <div class="container-fliud py-0 bgImgForm">
     </div>
 </section>
 

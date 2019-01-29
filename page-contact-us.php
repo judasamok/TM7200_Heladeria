@@ -3,7 +3,7 @@
     get_header();
 ?>
 
-<section class="headerColor">
+<section class="headerColorContactUs">
 
     <div class="container">
       <div class="row justify-content-center">
@@ -35,7 +35,7 @@
                     <img class="img-fluid  alignIcon" src="<?php bloginfo('template_directory'); ?>/assets/img/icon07-min.png" alt="Icon Contact Us">
                 </div>
                 <div class="col">
-                    <h1 class="text-center">Venta<br>del producto</h1>
+                    <h2 class="text-center">Venta<br>del producto</h2>
                     <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div class="col alignBtn">
@@ -49,7 +49,7 @@
                     <img class="img-fluid alignIcon" src="<?php bloginfo('template_directory'); ?>/assets/img/icon08-min.png" alt="Img Contact Us">
                 </div>
                 <div class="col">
-                    <h1 class="text-center">Marco<br>Alimenticio</h1>
+                    <h2 class="text-center">Marco<br>Alimenticio</h2>
                     <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div class="col alignBtn">
@@ -62,7 +62,7 @@
                     <img class="img-fluid alignIcon" src="<?php bloginfo('template_directory'); ?>/assets/img/icon09-min.png" alt="Img Contact Us">
                 </div>
                 <div class="col">
-                    <h1 class="text-center">Consultas<br>del Cliente</h1>
+                    <h2 class="text-center">Consultas<br>del Cliente</h2>
                     <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div class="col alignBtn">
@@ -75,10 +75,7 @@
 </section>
 
 <section>
-    <div class="container-fliud">
-        <div class="col-12-lg col-12-md col-12-sm">
-            <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/img/img31-min.jpeg" alt="Img Contact Us">
-        </div>
+    <div class="container-fluid py-0 bgImg">
     </div>
 </section>
 

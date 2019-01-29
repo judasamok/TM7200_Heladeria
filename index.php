@@ -2,7 +2,7 @@
 <?php get_header(); ?>  
 
      <!--Sección arriba-->
-    <section class="image img-fluid">
+    <section class="img-fluid bgImgHeader">
       <div class="container">
          <div class="row justify-content-center">
             <div class="col-lg-5 col-md-5 marginLogo">
@@ -45,8 +45,8 @@
       <!--Sabores-->
       <section>
          <div class="row no-gutters">
-            <div class="col-lg-7 col-md-7 col-sm-7">
-                <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/img/img01-min.jpg" alt="Flavors">
+            <div class="col-lg-7 col-md-7 col-sm-7 bgCS">
+                
             </div>
             <div class="col-md-4 padding">
                 <h1 class="text-center">Sabores</h1>
