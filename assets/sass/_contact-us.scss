@@ -1,4 +1,4 @@
-.headerColor{
+.headerColorContactUs{
     background-color: $color-orange!important;
 }
 
@@ -14,7 +14,16 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
+
+    @include respond-to($phone) {
+        height: 4.5em;
+        margin-top: 0.5em;
+    }
+    @include respond-to($phonelarge){
+        height: 4.5em;
+        margin-top: 0.5em;
+    }
+}//end
 
 .alignBtn{
     display: inline-block;
@@ -26,10 +35,9 @@
     font-family: 'TreMS'!important;
 }
 
-.formStyle{
+.formContactUs{
     border: 1px solid $color-black!important;
 }
-
 .formBtn{
     background-color: $color-black;
     color: $color-white;
@@ -39,4 +47,22 @@
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+}
+
+.bgImg{
+    background-size: cover!important;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    min-height: 600px;
+    height: calc(100vh - 150px);
+    background: url('./assets/img/img31-min.jpeg');
+}
+
+.bgImgForm{
+    background-size: cover!important;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    min-height: 600px;
+    height: calc(100vh - 150px);
+    background: url('./assets/img/img29-min.jpeg');
 }

@@ -1,0 +1,22 @@
+$phonesmall: '(min-width: 0px) and (max-width: 320px)';
+$phone : '(min-width: 321px) and (max-width: 360px)';
+$phonelarge: '(min-width: 361px) and (max-width: 411px)';
+$tablet-portrait: '(max-width: 767px)';
+$tablet-landscape: '(min-width: 768px) and (max-width: 960px)';
+$tablet-large: '(min-device-width: 1024px) and (max-device-height: 1366px)';
+$large-desktop: '(min-width: 1140px)';
+
+
+$non-retina: 'screen and (-webkit-max-device-pixel-ratio: 1)';
+$retina: '(min--moz-device-pixel-ratio: 1.5), 
+                    (-o-min-device-pixel-ratio: 3/2), 
+                    (-webkit-min-device-pixel-ratio: 1.5), 
+                    (min-device-pixel-ratio: 1.5), 
+                    (min-resolution: 144dpi), 
+                    (min-resolution: 1.5dppx)';
+
+@mixin respond-to($media) {
+    @media only screen and #{$media} {
+        @content;
+    }
+}

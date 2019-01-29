@@ -3,26 +3,29 @@ body{
     padding: 0;
     background:#ffffff;
     overflow-x: hidden;
-}
-h1{
+}//end
+h1, h2{
     font-family: 'CoconRegular';
-}
+}//end
 h3{
     font-family: 'ChronicDelivery';
-}
+}//end
 p{
     font-family: 'TreMS';
-}
+}//end
 a{
     text-decoration: none;
     &:hover{
         text-decoration: none;
     }
-}
+}//end
 nav{
     a{
         color: $color-white!important;
         font-family: 'CoconRegular';
+        &:hover{
+            color: $color-turquoise!important;
+        }
     }
 }//end
 .newNavbar{
@@ -32,17 +35,17 @@ nav{
     top: 0;
     width: 100%;
     z-index: 10;
-}
+}//end
 .marginLogo{
     margin: 6.5rem 0 0.5rem 0;
-}
+}//end
 footer{
     background-color: $color-light-green;
     padding: 1.2em;
     text-align: center;
     font-family: 'CoconRegular';
     color: gray!important;
-}
+}//end
 .buttons{
     background-color: $color-white;
     border: 2px solid $color-black;
