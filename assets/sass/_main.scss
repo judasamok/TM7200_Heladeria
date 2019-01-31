@@ -29,7 +29,7 @@ nav{
     }
 }//end
 .newNavbar{
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.3);
     opacity: .8;
     position: fixed;
     top: 0;
@@ -43,9 +43,14 @@ footer{
     background-color: $color-light-green;
     padding: 1.2em;
     text-align: center;
-    font-family: 'CoconRegular';
     color: gray!important;
 }//end
+.pFooter{
+    font-family: 'CoconRegular';
+}
+.pIcon{
+    font-size: 1.5em;
+}
 .buttons{
     background-color: $color-white;
     border: 2px solid $color-black;

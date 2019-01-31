@@ -7,7 +7,15 @@
 }
 
 .iconHeader{
-    height: 180px!important;
+    height: 180px;
+    @include respond-to($phone) {
+        height: 100px;
+        margin-top: 1.5em;
+    }
+    @include respond-to($phonelarge){
+        height: 100px;
+        margin-top: 1.5em;
+    }
 }
 
 .alignIcon{
@@ -38,31 +46,21 @@
 .formContactUs{
     border: 1px solid $color-black!important;
 }
-.formBtn{
+
+.formBtnContactUs{
     background-color: $color-black;
     color: $color-white;
     font-family: 'TreMS'!important;
     padding: 0.5em 8.5em;
-    text-align: center!important;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-}
-
-.bgImg{
-    background-size: cover!important;
-    background-repeat: no-repeat;
-    background-position: center center; 
-    min-height: 600px;
-    height: calc(100vh - 150px);
-    background: url('./assets/img/img31-min.jpeg');
-}
-
-.bgImgForm{
-    background-size: cover!important;
-    background-repeat: no-repeat;
-    background-position: center center; 
-    min-height: 600px;
-    height: calc(100vh - 150px);
-    background: url('./assets/img/img29-min.jpeg');
+    @include respond-to($phone) {
+        padding: 0.5em 0;
+        width: 100%;
+    }
+    @include respond-to($phonelarge){
+        padding: 0.5em 0;
+        width: 100%;
+    }
 }
