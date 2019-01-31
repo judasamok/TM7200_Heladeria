@@ -8,7 +8,7 @@
     <div class="container">
       <div class="row justify-content-center">
          <div class="col-lg-5 col-md-5 marginLogo">
-            <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png" alt="Logo">
+            <img class="img-fluid cdLofo" src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png" alt="Logo">
          </div>
       </div>
     </div>
@@ -72,11 +72,6 @@
             </div>
         </div><!--end row-->        
     </div><!--end container-->
-</section>
-
-<section>
-    <div class="container-fluid py-0 bgImg">
-    </div>
 </section>
 
 <?php 

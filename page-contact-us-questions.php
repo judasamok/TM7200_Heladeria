@@ -34,11 +34,11 @@
     <div class="container my-5">
         <div class="row justify-content-center">
             <div class="col-4-lg col-4-md col-4-sm mt-4 mb-2">
-                <h1 class="text-center">Ventas del Producto</h1>
+                <h1 class="text-center">Consultas del<br>Cliente</h1>
             </div>
         </div><!--end row-->
         <div class="row justify-content-center">
-            <div class="col-8">
+            <div class="col-lg-8 col-md-8 col-sm-6"> 
                 <form id="contactUs-Sales-Form">
                     <div class="row form-group">
                         <div class="col">
@@ -60,7 +60,7 @@
 
                     <div class="row form-group">
                         <div class="col text-center">
-                            <button type="submit" class="formBtn">Enviar</button>
+                            <button type="submit" class="formBtnContactUs">Enviar</button>
                         </div>
                     </div>
 
@@ -68,11 +68,6 @@
             </div><!--end col-12-->
         </div>
     </div><!--end container-->
-</section>
-
-<section>
-    <div class="container-fliud py-0 bgImgForm">
-    </div>
 </section>
 
 <?php 
