@@ -1,3 +1,16 @@
 .headerColorFlavors{
     background-color: $color-pink!important;
 }
+
+.parallaxFlavors{
+    background-color: chartreuse;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: auto;
+}
+
+#imgParallaxFlavors{
+    background-image: url('./assets/img/img28-min.jpg');
+}
