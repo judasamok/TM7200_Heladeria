@@ -15,7 +15,7 @@
     <div class="container headerMargin">
         <div class="row justify-content-center">
             <div class="col-lg-4 col-md-4 col-sm-4 mt-4">
-                <h1 class="text-center">About us</h1>                
+                <h1 class="text-center">Acerca de nosotros</h1>                
             </div>
             <div>
                 <img class="img-fluid iconHeader" src="<?php bloginfo('template_directory'); ?>/assets/img/icon01-min.png" alt="Icon About Us">
@@ -28,8 +28,8 @@
     <div class="container">
         <div class="row justify-content-center">   
             <div class="col-lg-6 col-md-6 col-sm-4 text-center">
-                <h2>Our History</h2>
-                <h3>The beginning of everything</h3>
+                <h2>Nuestra<br>Historia</h2>
+                <h3>El principio de todo</h3>
             </div>
         </div>
         <div class="row justify-content-center">   
@@ -96,8 +96,8 @@
     <div class="container">
         <div class="row justify-content-center">   
             <div class="col-lg-6 col-md-6 col-sm-4 text-center">
-                <h2>Ice creams made with love</h2>
-                <h3>What matters is that our customers are happy</h3>
+                <h2>Helados hechos con amor</h2>
+                <h3>Lo que nos importa es que los clientes sean felices</h3>
             </div>
         </div>
         <div class="row justify-content-center">   

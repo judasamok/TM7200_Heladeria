@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
    <head>
       <meta charset="<?php bloginfo('charset'); ?>">
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -8,7 +8,7 @@
    </head>
     <body <?php body_class();?> >
        
-   <nav class="navbar navbar-expand-md navbar-light newNavbar" role="navigation">
+   <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar" role="navigation">
       <div class="container">
          <!-- Brand and toggle get grouped for better mobile display -->
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,9 +27,9 @@
             'walker'            => new WP_Bootstrap_Navwalker()
 		   ) );
          ?>
-         <p class="text-light">
-            <i class="fab fa-facebook-f"></i>
-         </p>
+         <a class="btn-small btn-fb"><i class="fab fa-facebook-f"></i></a>
+         <a class="btn-small btn-tw mx-2"><i class="fab fa-twitter"></i></a>
+         <a class="btn-small btn-dribbble"><i class="fab fa-google-plus-g"></i></a>
          
       </div>
    </nav>

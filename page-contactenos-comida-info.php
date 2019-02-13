@@ -16,8 +16,8 @@
     <div class="container headerMargin">
         <div class="row justify-content-center">
             <div class="col-4-lg col-4-md col-4-sm mt-4">
-                <h1 class="text-center">Contact us</h1>
-                <h3 class="text-center">Make inquiries about our<br>products</h3>
+                <h1 class="text-center">Contáctenos</h1>
+                <h3 class="text-center">Realiza consultas sobre nuestros<br>productos</h3>
             </div>
             <div class="">
                 <img class="img-fluid iconHeader" src="<?php bloginfo('template_directory'); ?>/assets/img/icon06-min.png" alt="Icon Contactos">
@@ -31,7 +31,7 @@
     <div class="container my-5">
         <div class="row justify-content-center">
             <div class="col-4-lg col-4-md col-4-sm mt-4 mb-2">
-                <h2 class="text-center">Nutrition<br>Facts</h2>
+                <h1 class="text-center">Marco<br>Alimenticio</h1>
             </div>
         </div><!--end row-->
         <div class="row justify-content-center">
@@ -39,19 +39,19 @@
                 <form id="contactUs-Sales-Form">
                     <div class="row form-group">
                         <div class="col">
-                            <input type="text" class="form-control formContactUs" name="name" placeholder="Full Name" />
+                            <input type="text" class="form-control formContactUs" name="name" placeholder="Nombre completo" />
                         </div>
                     </div>
                 
                     <div class="form-group row">
                         <div class="col">
-                            <input type="text" class="form-control  formContactUs" name="email" placeholder="Email" />
+                            <input type="text" class="form-control  formContactUs" name="email" placeholder="Correo electrónico" />
                         </div>
                     </div>                    
 
                     <div class="row form-group">
                         <div class="col text-center">
-                            <button type="submit" class="formBtnContactUs">Send</button>
+                            <button type="submit" class="formBtnContactUs">Enviar</button>
                         </div>
                     </div>
 

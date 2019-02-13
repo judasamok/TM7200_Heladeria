@@ -15,7 +15,7 @@
     <div class="container headerMargin">
         <div class="row justify-content-center">
             <div class="col-4-lg col-4-md col-4-sm mt-4">
-                <h1 class="text-center">Promotions</h1>                
+                <h1 class="text-center">Promociones</h1>                
             </div>
             <div class="">
                 <img class="img-fluid iconHeader" src="<?php bloginfo('template_directory'); ?>/assets/img/icon02-min.png" alt="Icon Contactos">

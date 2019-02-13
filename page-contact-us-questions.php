@@ -14,13 +14,11 @@
     </div>
 
 
-
-
     <div class="container headerMargin">
         <div class="row justify-content-center">
             <div class="col-4-lg col-4-md col-4-sm mt-4">
-                <h1 class="text-center">Contáctenos</h1>
-                <h3 class="text-center">Realiza consultas sobre nuestros<br>productos</h3>
+                <h1 class="text-center">Contact us</h1>
+                <h3 class="text-center">Make inquiries about our<br>products</h3>
             </div>
             <div class="">
                 <img class="img-fluid iconHeader" src="<?php bloginfo('template_directory'); ?>/assets/img/icon06-min.png" alt="Icon Contactos">
@@ -34,7 +32,7 @@
     <div class="container my-5">
         <div class="row justify-content-center">
             <div class="col-4-lg col-4-md col-4-sm mt-4 mb-2">
-                <h1 class="text-center">Consultas del<br>Cliente</h1>
+                <h2 class="text-center">Questions</h2>
             </div>
         </div><!--end row-->
         <div class="row justify-content-center">
@@ -42,25 +40,25 @@
                 <form id="contactUs-Sales-Form">
                     <div class="row form-group">
                         <div class="col">
-                            <input type="text" class="form-control formContactUs" name="name" placeholder="Nombre completo" />
+                            <input type="text" class="form-control formContactUs" name="name" placeholder="Full Name" />
                         </div>
                     </div>
                 
                     <div class="form-group row">
                         <div class="col">
-                            <input type="text" class="form-control  formContactUs" name="email" placeholder="Correo electrónico" />
+                            <input type="text" class="form-control  formContactUs" name="email" placeholder="Email" />
                         </div>
                     </div>                    
 
                     <div class="form-group row">                        
                         <div class="col">
-                            <textarea name="question" id="question" cols="30" rows="6" class=" form-control formContactUs" placeholder="Mensaje..."></textarea>
+                            <textarea name="question" id="question" cols="30" rows="6" class=" form-control formContactUs" placeholder="Question..."></textarea>
                         </div>
                     </div>
 
                     <div class="row form-group">
                         <div class="col text-center">
-                            <button type="submit" class="formBtnContactUs">Enviar</button>
+                            <button type="submit" class="formBtnContactUs">Send</button>
                         </div>
                     </div>
 

@@ -54,19 +54,19 @@
             <div class="col-lg-8 col-md-8 col-sm-4">
                 <ul class="nav nav-pills my-2" id="pills-tab" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab" aria-controls="pills-home" aria-selected="true">all</a>
+                        <a class="nav-link active" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab" aria-controls="pills-home" aria-selected="true">todos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="pills-water-tab" data-toggle="pill" href="#pills-water" role="tab" aria-controls="pills-home" aria-selected="true">water base</a>
+                        <a class="nav-link" id="pills-water-tab" data-toggle="pill" href="#pills-water" role="tab" aria-controls="pills-home" aria-selected="true">nieves</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="pills-cones-tab" data-toggle="pill" href="#pills-cones" role="tab" aria-controls="pills-home" aria-selected="true">cones</a>
+                        <a class="nav-link" id="pills-cones-tab" data-toggle="pill" href="#pills-cones" role="tab" aria-controls="pills-home" aria-selected="true">conos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="pills-popsicles-tab" data-toggle="pill" href="#pills-popsicles" role="tab" aria-controls="pills-home" aria-selected="true">popsicles</a>
+                        <a class="nav-link" id="pills-popsicles-tab" data-toggle="pill" href="#pills-popsicles" role="tab" aria-controls="pills-home" aria-selected="true">paletas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="pills-specials-tab" data-toggle="pill" href="#pills-specials" role="tab" aria-controls="pills-home" aria-selected="true">specials</a>
+                        <a class="nav-link" id="pills-specials-tab" data-toggle="pill" href="#pills-specials" role="tab" aria-controls="pills-home" aria-selected="true">especiales</a>
                     </li>
                 </ul>
             </div>
@@ -79,14 +79,14 @@
                         <div class="card">
                             <img class="card-img-top img-fluid rounded-circle" src="<?php bloginfo('template_directory'); ?>/assets/img/img10-min.jpeg" alt="Card">
                             <div class="card-body text-center">
-                                <h5 class="card-title">Double Ice Cream</h5>
+                                <h5 class="card-title">Helado doble</h5>
                                 <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                             </div>
                         </div>
                         <div class="card">
                             <img class="card-img-top img-fluid rounded-circle" src="<?php bloginfo('template_directory'); ?>/assets/img/img13-min.jpg" alt="Card">
                             <div class="card-body text-center">
-                                <h5 class="card-title">Ice cream with peanut</h5>
+                                <h5 class="card-title">Helado con mani</h5>
                                 <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                             </div>
                         </div>
@@ -98,14 +98,14 @@
                         <div class="card">
                             <img class="card-img-top img-fluid rounded-circle" src="<?php bloginfo('template_directory'); ?>/assets/img/img17-min.jpeg" alt="Card">
                             <div class="card-body text-center">
-                                <h5 class="card-title">Ice cream in a cup</h5>
+                                <h5 class="card-title">Helado de copa</h5>
                                 <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                             </div>
                         </div><!--end-->
                         <div class="card">
                             <img class="card-img-top img-fluid rounded-circle" src="<?php bloginfo('template_directory'); ?>/assets/img/img11-min.jpeg" alt="Card">
                             <div class="card-body text-center">
-                                <h5 class="card-title">Cone with two flavors</h5>
+                                <h5 class="card-title">Cono doble</h5>
                                 <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                             </div>  
                         </div>
@@ -118,14 +118,14 @@
                         <div class="card">
                             <img class="card-img-top rounded-circle" src="<?php bloginfo('template_directory'); ?>/assets/img/img16-min.jpg" alt="Card">
                             <div class="card-body text-center">
-                                <h5 class="card-title">Popsicles</h5>
+                                <h5 class="card-title">Helado de paleta</h5>
                                 <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                             </div>
                         </div>
                         <div class="card">
                             <img class="card-img-top rounded-circle" src="<?php bloginfo('template_directory'); ?>/assets/img/img14-min.jpg" alt="Card">
                             <div class="card-body text-center">
-                                <h5 class="card-title">Ice cream cone</h5>
+                                <h5 class="card-title">Helado de cono</h5>
                                 <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                             </div>
                         </div><!--end card-->
@@ -138,7 +138,7 @@
                         <div class="card">
                             <img class="card-img-top rounded-circle" src="<?php bloginfo('template_directory'); ?>/assets/img/img08-min.jpeg" alt="Card">
                             <div class="card-body text-center">
-                                <h5 class="card-title">Ice cream with waffles</h5>
+                                <h5 class="card-title">Helado con waffle</h5>
                                 <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                             </div>
                         </div>
@@ -160,14 +160,14 @@
                         <div class="card">
                             <img class="card-img-top rounded-circle" src="<?php bloginfo('template_directory'); ?>/assets/img/img16-min.jpg" alt="Card">
                             <div class="card-body text-center">
-                                <h5 class="card-title">Popsicles</h5>
+                                <h5 class="card-title">Helado de paleta</h5>
                                 <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                             </div>
                         </div>
                         <div class="card">
                             <img class="card-img-top rounded-circle" src="<?php bloginfo('template_directory'); ?>/assets/img/img14-min.jpg" alt="Card">
                             <div class="card-body text-center">
-                                <h5 class="card-title">Ice cream cone</h5>
+                                <h5 class="card-title">Helado de cono</h5>
                                 <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                             </div>
                         </div><!--end card-->
@@ -181,14 +181,14 @@
                         <div class="card">
                             <img class="card-img-top img-fluid rounded-circle" src="<?php bloginfo('template_directory'); ?>/assets/img/img11-min.jpeg" alt="Card">
                             <div class="card-body text-center">
-                                <h5 class="card-title">Cone with two flavors</h5>
+                                <h5 class="card-title">Cono Doble</h5>
                                 <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                             </div>
                         </div>
                         <div class="card">
                             <img class="card-img-top rounded-circle" src="<?php bloginfo('template_directory'); ?>/assets/img/img14-min.jpg" alt="Card">
                             <div class="card-body text-center">
-                                <h5 class="card-title">Ice cream cone</h5>
+                                <h5 class="card-title">Helado de cono</h5>
                                 <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                             </div>
                         </div><!--end card-->
@@ -202,7 +202,7 @@
                         <div class="card">
                             <img class="card-img-top rounded-circle" src="<?php bloginfo('template_directory'); ?>/assets/img/img16-min.jpg" alt="Card">
                             <div class="card-body text-center">
-                                <h5 class="card-title">Popsicles</h5>
+                                <h5 class="card-title">Helado de paleta</h5>
                                 <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                             </div>
                         </div>     
@@ -216,14 +216,14 @@
                         <div class="card">
                             <img class="card-img-top img-fluid rounded-circle" src="<?php bloginfo('template_directory'); ?>/assets/img/img10-min.jpeg" alt="Card">
                             <div class="card-body text-center">
-                                <h5 class="card-title">Double Ice cream</h5>
+                                <h5 class="card-title">Helado doble</h5>
                                 <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                             </div>
                         </div>
                         <div class="card">
                             <img class="card-img-top img-fluid rounded-circle" src="<?php bloginfo('template_directory'); ?>/assets/img/img13-min.jpg" alt="Card">
                             <div class="card-body text-center">
-                                <h5 class="card-title">Ice cream with peanut</h5>
+                                <h5 class="card-title">Helado con mani</h5>
                                 <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                             </div>
                         </div>
@@ -235,7 +235,7 @@
                         <div class="card">
                             <img class="card-img-top rounded-circle" src="<?php bloginfo('template_directory'); ?>/assets/img/img08-min.jpeg" alt="Card">
                             <div class="card-body text-center">
-                                <h5 class="card-title">Ice cream with waffles</h5>
+                                <h5 class="card-title">Helado con waffle</h5>
                                 <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                             </div>
                         </div>
@@ -254,7 +254,7 @@
                         <div class="card">
                             <img class="card-img-top img-fluid rounded-circle" src="<?php bloginfo('template_directory'); ?>/assets/img/img17-min.jpeg" alt="Card">
                             <div class="card-body text-center">
-                                <h5 class="card-title">Ice cream in a cup</h5>
+                                <h5 class="card-title">Helado de copa</h5>
                                 <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                             </div>
                         </div><!--end-->

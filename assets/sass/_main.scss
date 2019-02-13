@@ -4,7 +4,7 @@ body{
     background:#ffffff;
     overflow-x: hidden;
 }//end
-h1, h2{
+h1, h2, h5{
     font-family: 'CoconRegular';
 }//end
 h3{
@@ -28,14 +28,9 @@ nav{
         }
     }
 }//end
-.newNavbar{
-    background: rgba(0,0,0,0.3);
-    opacity: .8;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 10;
-}//end
+.top-nav-collapse{
+    background-color: rgba(0,0,0,0.7)!important;
+}
 .marginLogo{
     margin: 6.5rem 0 0.5rem 0;
 }//end
@@ -43,7 +38,7 @@ footer{
     background-color: $color-light-green;
     padding: 1.2em;
     text-align: center;
-    color: gray!important;
+    color: $color-grey!important;
 }//end
 .pFooter{
     font-family: 'CoconRegular';

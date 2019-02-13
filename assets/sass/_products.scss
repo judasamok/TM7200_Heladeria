@@ -1,3 +1,25 @@
 .headerColorProducts{
     background-color: $color-purple!important;
 }
+
+.menuProducts{
+    font-family: 'CoconRegular'!important;
+    padding-left: 5.5rem;
+    @include respond-to($phone) {
+        padding-left: 3.2rem;
+    }
+    @include respond-to($phonelarge){
+        padding-left: 3.2rem;
+    }
+    @include respond-to($tablet-landscape){
+        padding-left: 4.5rem;
+    }
+    .active{
+        background-color: $color-purple!important;
+    }
+    .nav-link{
+        &:hover{
+            color: $color-turquoise!important;
+        }
+    }
+}//end

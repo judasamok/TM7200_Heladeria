@@ -16,11 +16,11 @@
      <section>
          <div class="row no-gutters">
              <div class="col-md-8 col-sm-8 paddingText">
-                 <h1 class="text-center">Our<br>History</h1>
-                    <h3 class="text-center">The beginning of everything</h3>
+                 <h1 class="text-center">Nuestra<br>Historia</h1>
+                    <h3 class="text-center">El principio de todo</h3>
                     <p class="text-center">Ut auctor luctus leo eleifend porttitor. Curabitur <br>pretit auctor luctus leo eleifend porttitor. Curabitur <br> pretium rutrum turpis, at varius lacus viverra ac. <br> Donec turpis magna, blandit eget sapien consectetur, <br> cursus interdum dolor. Pellentesque habitant morbi <br> tristique senectus et netus et malesuada fames ac <br> turpis egestas.</p>
                     <div class="col alignBtn">
-                    <a class="buttons " href="./about-us">View more</a>
+                    <a class="buttons " href="./about-us">Leer más</a>
                 </div>
              </div>
              <div class="col-md-4">
@@ -33,10 +33,10 @@
      <section>
          <div class="container-fluid bgImgHome textAlignImg">
             <div class="col-md-8">
-               <h1 class="text-center">Our<br>Products</h1>
-               <h3 class="text-center">Delicious variety of ice cream</h3>
+               <h1 class="text-center">Nuestros<br>Productos</h1>
+               <h3 class="text-center">Deliciosa variedad de helados</h3>
                <div class="col alignBtn">
-                  <a class="buttons buttonProducts" href="./products">View more</a>
+                  <a class="buttons buttonProducts" href="./products">Ver más</a>
             </div>
         </div>
     </div>
@@ -49,11 +49,11 @@
                 
             </div>
             <div class="col-md-4 padding">
-                <h1 class="text-center">Flavors</h1>
-                <h3 class="text-center">Know the flavors that we offer</h3>
+                <h1 class="text-center">Sabores</h1>
+                <h3 class="text-center">Conoce todos nuestros sabores</h3>
                 <p class="text-center">Ut auctor luctus leo eleifend porttitor. <br> Curabitur pretit auctor luctus leo <br> eleifend porttitor. Curabitur pretium <br> rutrum turpis, at varius lacus viverra ac. <br> Donec turpis magna, blandit eget sapien <br> consectetur, cursus interdum dolor.</p>
                 <div class="col alignBtn">
-                    <a class="buttons" href="./sabores">Menu</a>
+                    <a class="buttons" href="./sabores">Menú</a>
                 </div>
             </div>
         </div>
@@ -63,20 +63,20 @@
       <section>
           <div class="row no-gutters">
              <div class="col-md-8 paddingText">
-                 <h1 class="text-center">Promotions</h1>
-                    <h3 class="text-center">Find out about our discounts</h3>
-                    <p class="text-center">Subscribe to our newsletter<br>to get more information<br> about our promotions.</p>
+                 <h1 class="text-center">Promociones</h1>
+                    <h3 class="text-center">Enterate de nuestros descuentos</h3>
+                    <p class="text-center">Suscríbete a nuestro newsletter para <br> obtener más información acerca de <br> nuestras promociones.</p>
                     <!--Formulario de promociones-->
                     <form id="newsletter">                
                     <div class="form-group row">
                         <div class="col-md-4">
-                            <input type="text" class="form-control  formStyle" name="email" placeholder="Email"/>
+                            <input type="text" class="form-control  formStyle" name="email" placeholder="Correo electrónico"/>
                         </div>
                     </div>                    
 
                     <div class="row form-group">
                         <div class="col text-center">
-                            <button type="submit" class="formBtn">Subscribe</button>
+                            <button type="submit" class="formBtn">Suscribirse</button>
                         </div>
                     </div>
 
