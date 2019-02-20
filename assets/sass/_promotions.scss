@@ -1,3 +1,26 @@
 .headerColorPromotions{
     background-color: $color-yellow!important;
 }
+
+.parallaxPromotions{
+    background-color: chartreuse;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: auto;
+}
+    
+#imgParallaxPromotions{
+    background-image: url('./assets/img/img20-min.png');
+}
+
+.h1{
+    font-family: 'CoconRegular';
+    color: darkblue;
+}
+
+.h3{
+    font-family: 'ChronicDelivery';
+    color: darkblue;
+}
