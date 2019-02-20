@@ -1,15 +1,8 @@
-
 .bgImgHeader{
     background:url('./assets/img/img02-min.png') no-repeat;
     height: 600px;
     background-size: cover;
-
-    @include respond-to($phone) {
-        background-size: contain;
-        height: auto;
-    }
-}
-
+} 
 .bgImgHome{
     height: 500px!important;
     background: url('./assets/img/img03-min.png') no-repeat;
@@ -20,14 +13,27 @@
         height: auto;
     }
 }
-.bgCS{
-    width: 100%;
-    height: auto;
-    background: url('./assets/img/img01-min.jpg') no-repeat;
-    background-size: cover;
 
+.iconHome{
     @include respond-to($phone) {
-        background-size: contain;
+        max-width: 100%;
+        height: auto;
+    }
+    @include respond-to($phonelarge){
+        max-width: 100%;
+        height: auto; 
+    }
+    @include respond-to($tablet-large){
+        margin-left: 130%;
+        height: 190px;
+    }
+    @include respond-to($tablet-landscape){
+        margin-left: 130%;
+        height: 190px;
+    }
+    @include respond-to($large-desktop){
+        height: 245px;
+        margin-left: 120%;
     }
 }
 
@@ -39,7 +45,7 @@
 }
 
 .paddingText{
-    padding: 3.2rem 0;
+    padding: 8.2rem 0;
 }
 
 .padding{
@@ -64,8 +70,6 @@
     border: 1px solid $color-black!important;
     padding: 0.5em 0.5em;
     display: inline-block;
-    margin: 4px 2px 0 104%;
-    width: 110%;
 }
 
 .formBtn{
@@ -77,5 +81,22 @@
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+    width: 100%;
+}
+    
+.parallaxProducts{
+    background-color: chartreuse;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: auto;
+}
+    
+#imgParallaxProducts{
+    background-image: url('./assets/img/img03-min.png');
 }
 
+.parallaxSize{
+    height: 400px;
+}
