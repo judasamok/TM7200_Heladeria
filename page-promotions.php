@@ -63,13 +63,13 @@
     </div>
 </section>
 
-<section>
+<!--<section>
     <div>
         <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/img/img20-min.png" alt="Img Nosotros">
     </div>
-</section>
+</section>-->
 
-<!--<section class="parallaxPromotions" id="imgParallaxPromotions">
+<section class="parallaxPromotions" id="imgParallaxPromotions">
     <div class="container-fluid">
            <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12 mt-5 pt-5">
@@ -80,42 +80,9 @@
     </div>
 </section>
 
-<!--<section>
-     <div class="container my-5">
-          <div class="row">
-             <div class="col">
-                <div class="col">
-                    <h1 class="text-center">Inscribete</h1>
-                    <h3 class="text-center">Enterate de nuestros descuentos</h3>
-                    <p class="text-center mx-lg-5 px-lg-5">Suscríbete a nuestro newsletter para obtener más información acerca de nuestras promociones.</p>
-                </div>
-                <!--Formulario de promociones-- >
-                    <form id="newsletter">                
-                    <div class="form-group row justify-content-center">
-                        <div class="col-sm-12 col-md-6 col-lg-6">
-                            <input type="text" class="form-control  formStyle" name="email" placeholder="Correo electrónico"/>
-                        </div>
-                    </div>                    
-                    <div class="row form-group justify-content-center">
-                        <div class="col-sm-12 col-md-6 col-lg-6 text-center">
-                            <button style="text-center" type="submit" class="formBtn">Suscribirse</button>
-                        </div>
-                    </div>
-                </form>
-             </div>
-             
-             <div class="col">
-                 <div class="col">
-                    <img class="img-fluid w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/img22-min.png" alt="Promotions">
-                </div>
-             </div>
-        </div> 
-    </div>
-</section> -->
-
 <section>
     <div class="row justify-content-center ">
-             <div class="col-sm-12 col-md-6 col-lg-6 mt-lg-4 pt-lg-5">
+             <div class="col-sm-12 col-md-6 col-lg-6 mt-lg-4">
                  <h1 class="text-center">Inscribete</h1>
                     <h3 class="text-center">Enterate de nuestros descuentos</h3>
                     <p class="text-center mx-lg-5 px-lg-5">Suscríbete a nuestro newsletter para obtener más información acerca de nuestras promociones.</p>
@@ -133,8 +100,8 @@
                     </div>
                 </form>
              </div>
-             <div class="col-sm-12 col-md-6 col-lg-6">
-                 <img class="img-fluid w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/img22-min.png" alt="Promotions">
+             <div class="col-sm-12 col-md-6 col-lg-6 ">
+                 <img class="img-fluid w-100 justify-content-center" src="<?php bloginfo('template_directory'); ?>/assets/img/img22-min.png" alt="Promotions">
              </div>
           </div>
 </section>
