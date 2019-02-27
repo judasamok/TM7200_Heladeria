@@ -6,6 +6,12 @@
             <a class="pIcon"><i class="fab fa-google-plus-g"></i></a>
         </footer>
         <?php wp_footer(); ?>
+
+        <script>
+            $('#myModal').on('shown.bs.modal', function () {
+                $('#myInput').trigger('focus')
+            })
+        </script>
         
     </body>
 </html>

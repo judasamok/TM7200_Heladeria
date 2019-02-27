@@ -1,103 +1,126 @@
+<?php get_header(); ?>
 
-<?php get_header(); ?>  
-
-     <!--Sección arriba-->
-    <section class="img-fluid bgImgHeader">
-      <div class="container-fluid">
-         <div class="row justify-content-center">
+<!--Sección arriba-->
+<section class="img-fluid bgImgHeader">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
             <div class="col-lg-5 col-md-5 marginLogo">
-               <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png" alt="Logo">
+                <?php 
+                    $logo = get_field('header_logo');
+                    if( !empty($logo) ): ?>
+                        <img class="img-fluid" src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" />
+                <?php endif; ?>                
             </div>
-         </div>
-         <div class="col-sm-12 col-md-6 col-lg-6">
-                <img class="img-fluid iconHome" src="<?php bloginfo('template_directory'); ?>/assets/img/icon00-min.png" alt="Icon Home">
+        </div>
+        <div class="row justify-content-end">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <?php 
+                    $header_icon = get_field('header_icon');
+                    if( !empty($header_icon) ): ?>
+                        <img class="img-fluid iconHeader" src="<?php echo $header_icon['url']; ?>" alt="<?php echo $header_icon['alt']; ?>" />
+                <?php endif; ?>             
             </div>
-      </div>
-      
-    </section>
-     
-     <!--Nosotros-->
-     <section>
-         <div class="row">
-             <div class="col-sm-12 col-md-8 col-lg-8 mt-lg-4 p-5">
-                
-                 <h1 class="text-center">Nuestra<br>Historia</h1>
-                    <h3 class="text-center">El principio de todo</h3>
-                    <p class="text-center mx-lg-5 px-lg-5">Ut auctor luctus leo eleifend porttitor. Curabitur pretit auctor luctus leo eleifend porttitor. Curabitur pretium rutrum turpis, at varius lacus viverra ac. Donec turpis magna, blandit eget sapien consectetur, cursus interdum dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                    <div class="col alignBtn">
-                    <a class="buttons " href="./about-us">Leer más</a>
-                    </div>
-                
-             </div>
-                 <div class="col-sm-12 col-md-4 col-lg-4">
-                     <img class="img-fluid w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/img05-min.jpg" alt="About Us">
-                 </div>
-          </div>
-     </section>
-     
-     <!--Productos-->
-     <section class="parallaxProducts" id="imgParallaxProducts">
-         <div class="container-fluid">
-           <div class="row">
+        </div>
+    </div>
+
+</section>
+
+<!--Nosotros-->
+<section>
+    <div class="row">
+        <div class="col-sm-12 col-md-8 col-lg-8 mt-lg-4 p-5">
+            <h1 class='text-center'><?php the_field('section01_title')?></h1>      
+            <h3 class='text-center'><?php the_field('section01_subtitle')?></h3>            
+            <p class="text-center mx-lg-5 px-lg-5"><?php the_field('section01_text_area')?></p>
+            <div class="col alignBtn">
+                <a class="buttons" href="./<?php the_field('section01_btn_link')?>"><?php the_field('section01_btn')?></a>
+            </div>
+
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+            <?php 
+                $section01_img = get_field('section01_img');
+                if( !empty($section01_img) ): ?>
+                    <img class="img-fluid" src="<?php echo $section01_img['url']; ?>" alt="<?php echo $section01_img['alt']; ?>" />
+            <?php endif; ?> 
+        </div>
+    </div>
+</section>
+
+<!--Productos-->
+<section class="parallaxProducts" id="imgParallaxProducts">
+    <div class="container-fluid">
+        <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12 mt-5 pt-5">
-              <div class="parallaxSize text-center col-sm-12 col-md-8 col-lg-8">
-               <h1 class="text-center">Nuestros<br>Productos</h1>
-               <h3 class="text-center">Deliciosa variedad de helados</h3>
-               <div class="col alignBtn">
-                  <a class="buttons buttonProducts" href="./products">Ver más</a>
-                </div>
+                <div class="parallaxSize text-center col-sm-12 col-md-8 col-lg-8">
+                    <h1 class='text-center'><?php the_field('section02_title')?></h1>      
+                    <h3 class='text-center'><?php the_field('section02_subtitle')?></h3>
+                    <div class="col alignBtn">
+                        <a class="buttons buttonProducts" href="./<?php the_field('section02_btn_link')?>"><?php the_field('section02_btn')?></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-     </section>
-     
-      <!--Sabores-->
-      <section >
-         <div class="row">
-            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                <img class="img-fluid w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/img01-min.png" alt="Flavors">
-            </div>
-            <div class="col-sm-12 col-md-4 col-lg-4 mt-lg-4 p-5">
-                <h1 class="text-center">Sabores</h1>
-                <h3 class="text-center">Conoce todos nuestros sabores</h3>
-                <p class="text-center">Ut auctor luctus leo eleifend porttitor. Curabitur pretit auctor luctus leo eleifend porttitor. Curabitur pretium rutrum turpis, at varius lacus viverra ac. Donec turpis magna, blandit eget sapien  consectetur, cursus interdum dolor.</p>
-                <div class="col alignBtn">
-                    <a class="buttons" href="./sabores">Menú</a>
-                </div>
+</section>
+
+<!--Sabores-->
+<section>
+    <div class="row">
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+            <?php 
+                $section03_img = get_field('section03_img');
+                if( !empty($section03_img) ): ?>
+                    <img class="img-fluid" src="<?php echo $section03_img['url']; ?>" alt="<?php echo $section03_img['alt']; ?>" />
+            <?php endif; ?> 
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 mt-lg-4 p-5">
+            <h1 class="text-center"><?php the_field('section03_title')?></h1>
+            <h3 class="text-center"><?php the_field('section03_subtitle')?></h3>
+            <p class="text-center"><?php the_field('section03_text_area')?></p>
+            <div class="col alignBtn">
+                <a class="buttons" href="./<?php the_field('section03_btn_link')?>"><?php the_field('section03_btn')?></a>
             </div>
         </div>
-      </section>
-      
-      <!--Promociones-->
-      <section>
-          <div class="row justify-content-center ">
-             <div class="col-sm-12 col-md-8 col-lg-8 mt-lg-4 p-5 pt-5">
-                <div class="p-lg-5">
-                 <h1 class="text-center">Promociones</h1>
-                    <h3 class="text-center">Enterate de nuestros descuentos</h3>
-                    <p class="text-center mx-lg-5 px-lg-5">Suscríbete a nuestro newsletter para obtener más información acerca de nuestras promociones.</p>
-                    <!--Formulario de promociones-->
-                    <form id="newsletter">                
+    </div>
+</section>
+
+<!--Promociones-->
+<section>
+    <div class="row justify-content-center ">
+        <div class="col-sm-12 col-md-8 col-lg-8 mt-lg-4 p-5 pt-5">
+            <div class="p-lg-5">
+                <h1 class="text-center"><?php the_field('section04_title')?></h1>
+                <h3 class="text-center"><?php the_field('section04_subtitle')?></h3>
+                <p class="text-center mx-lg-5 px-lg-5"><?php the_field('section04_text_area')?></p>
+                <!--Formulario de promociones-->
+                <form id="newsletter">
                     <div class="form-group row justify-content-center">
                         <div class="col-sm-12 col-md-6 col-lg-6">
-                            <input type="text" class="form-control  formStyle" name="email" placeholder="Correo electrónico"/>
-                        </div>
-                    </div>                    
-
-                    <div class="row form-group justify-content-center">
-                        <div class="col-sm-12 col-md-6 col-lg-6 text-center">
-                            <button style="text-center" type="submit" class="formBtn">Suscribirse</button>
+                            <input type="text" class="form-control  formStyle" name="email"
+                                placeholder="<?php the_field('section04_form')?>" />
                         </div>
                     </div>
 
+                    <div class="row form-group justify-content-center">
+                        <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+                            <?php
+                                $section04_btn = get_post_meta( get_the_ID(), 'section04_btn', true);
+                                echo "<button style='text-center' type='submit' class='formBtn'>".$section04_btn."</button>";
+                             ?>
+                        </div>
+                    </div>
                 </form>
-                </div>
-             </div>
-             <div class="col-sm-12 col-md-4 col-lg-4">
-                 <img class="img-fluid w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/img04-min.jpg" alt="Promotions">
-             </div>
-          </div>
-      </section>
-    
-    <?php get_footer(); ?>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+            <?php 
+                $section04_img = get_field('section04_img');
+                if( !empty($section04_img) ): ?>
+                    <img class="img-fluid" src="<?php echo $section04_img['url']; ?>" alt="<?php echo $section04_img['alt']; ?>" />
+            <?php endif; ?>            
+        </div>
+    </div>
+</section>
+
+<?php get_footer(); ?>

@@ -7,7 +7,11 @@
     <div class="container">
       <div class="row justify-content-center">
          <div class="col-lg-5 col-md-5 marginLogo">
-            <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png" alt="Logo">
+            <?php 
+                $logo = get_field('header_logo');
+                if( !empty($logo) ): ?>
+                    <img class="img-fluid" src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" />
+            <?php endif; ?>
          </div>
       </div>
     </div>
@@ -15,10 +19,17 @@
     <div class="container headerMargin">
         <div class="row justify-content-center">
             <div class="col-lg-4 col-md-4 col-sm-4 mt-4">
-                <h1 class="text-center">About us</h1>                
+                <?php
+                    $header_title = get_post_meta( get_the_ID(), 'header_title', true);
+                    echo "<h1 class='text-center'>".$header_title."</h1>";
+                 ?>
             </div>
             <div>
-                <img class="img-fluid iconHeader" src="<?php bloginfo('template_directory'); ?>/assets/img/icon01-min.png" alt="Icon About Us">
+                <?php 
+                    $header_icon = get_field('header_icon');
+                    if( !empty($header_icon) ): ?>
+                        <img class="img-fluid iconHeader" src="<?php echo $header_icon['url']; ?>" alt="<?php echo $header_icon['alt']; ?>" />
+                <?php endif; ?>
             </div>
         </div>
     </div>
@@ -28,13 +39,20 @@
     <div class="container">
         <div class="row justify-content-center">   
             <div class="col-lg-6 col-md-6 col-sm-4 text-center">
-                <h2>Our History</h2>
-                <h3>The beginning of everything</h3>
+                <?php
+                    $section01_title = get_post_meta( get_the_ID(), 'section01_title', true);
+                    echo "<h2>".$section01_title."</h2>";
+                    $section01_subtitle = get_post_meta( get_the_ID(), 'section01_subtitle', true);
+                    echo "<h3>".$section01_subtitle."</h3>";
+                 ?>
             </div>
         </div>
         <div class="row justify-content-center">   
             <div class="col-lg-8 col-md-8 col-sm-4 text-center">
-                <p>Nostrud patrioque vel ea. Ut nonumes apeirian conclusionemque nam, et phaedrum deseruisse definiebas cum, mei tibique definiebas ne. Duo magna detracto no, no ubique menandri appellantur quo. Eos diceret electram quaerendum an. Mea at vitae nusquam eleifend. Cu eum meis dictas, an per mentitum aliquando intellegam. Et vix consul regione. At nec accusam omnesque, rebum recteque vel ex. Ea tota definitiones sit, te vel omnis tritani eloquentiam. Soluta numquam liberavisse cu pro, tollit accumsan lucilius ne eum.</p>
+                <?php 
+                    $section01_text_area = get_post_meta( get_the_ID(), 'section01_text_area',true);
+                    echo "<p>".$section01_text_area."</p>";
+                 ?>
             </div>
         </div>
 
@@ -57,19 +75,31 @@
                 <div class="carousel-inner" role="listbox">
                     <!--First slide-->
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/img34-min.jpg" alt="Slider 2 About Us">                        
+                        <?php 
+                            $slider1 = get_field('slider_img01');
+                            if( !empty($slider1) ): ?>
+                                <img class="d-block w-100" src="<?php echo $slider1['url']; ?>" alt="<?php echo $slider1['alt']; ?>" />
+                        <?php endif; ?>
                     </div>
                     <!--/First slide-->
                 
                     <!--Second slide-->
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/img35-min.jpg" alt="Slider 1 About Us">
+                        <?php 
+                            $slider2 = get_field('slider_img02');
+                            if( !empty($slider2) ): ?>
+                                <img class="d-block w-100" src="<?php echo $slider2['url']; ?>" alt="<?php echo $slider2['alt']; ?>" />
+                        <?php endif; ?>
                     </div>
                     <!--/Second slide-->
         
                     <!--Third slide-->
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="<?php bloginfo('template_directory'); ?>/assets/img/img36-min.jpg" alt="Slider 3 About Us">
+                        <?php 
+                            $slider3 = get_field('slider_img03');
+                            if( !empty($slider3) ): ?>
+                                <img class="d-block w-100" src="<?php echo $slider3['url']; ?>" alt="<?php echo $slider3['alt']; ?>" />
+                        <?php endif; ?>
                     </div>
                     <!--/Third slide-->
                 </div>
@@ -96,13 +126,20 @@
     <div class="container">
         <div class="row justify-content-center">   
             <div class="col-lg-6 col-md-6 col-sm-4 text-center">
-                <h2>Ice creams made with love</h2>
-                <h3>What matters is that our customers are happy</h3>
+                <?php
+                    $section02_title = get_post_meta( get_the_ID(), 'section02_title', true);
+                    echo "<h2>".$section02_title."</h2>";
+                    $section02_subtitle = get_post_meta( get_the_ID(), 'section02_subtitle', true);
+                    echo "<h3>".$section02_subtitle."</h3>";
+                 ?>                
             </div>
         </div>
         <div class="row justify-content-center">   
             <div class="col-lg-8 col-md-8 col-sm-6 text-center">
-                <p>Et vix consul regione. At nec accusam omnesque, rebum recteque vel ex. Ea tota definitiones sit, te vel omnis tritani eloquentiam. Soluta numquam liberavisse cu pro, tollit accumsan lucilius ne eum. Nostrud patrioque vel ea. Ut nonumes apeirian conclusionemque nam, et phaedrum deseruisse definiebas cum, mei tibique definiebas ne. Duo magna detracto no, no ubique menandri appellantur quo. Eos diceret electram quaerendum an. Mea at vitae nusquam eleifend.</p>
+                <?php 
+                    $section02_text_area = get_post_meta( get_the_ID(), 'section02_text_area',true);
+                    echo "<p>".$section02_text_area."</p>";
+                 ?>
             </div>
         </div>
 

@@ -7,7 +7,11 @@
     <div class="container">
       <div class="row justify-content-center">
          <div class="col-lg-5 col-md-5 marginLogo">
-            <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png" alt="Logo">
+            <?php 
+                $logo = get_field('header_logo');
+                if( !empty($logo) ): ?>
+                    <img class="img-fluid" src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" />
+            <?php endif; ?>
          </div>
       </div>
     </div>
@@ -15,21 +19,29 @@
     <div class="container headerMargin">
         <div class="row justify-content-center">
             <div class="col-4-lg col-4-md col-4-sm mt-4">
-                <h1 class="text-center">Locations</h1>                
-            </div>
-            <div class="">
-                <img class="img-fluid iconHeader" src="<?php bloginfo('template_directory'); ?>/assets/img/icon02-min.png" alt="Icon Contactos">
+                <h1 class='text-center'><?php the_field('header_title')?></h1>                 
             </div>
         </div>
+        <div class="row justify-content-center">
+            <?php 
+                    $header_icon = get_field('header_icon');
+                    if( !empty($header_icon) ): ?>
+                        <img class="img-fluid iconHeader" src="<?php echo $header_icon['url']; ?>" alt="<?php echo $header_icon['alt']; ?>" />
+                <?php endif; ?>
+        </div>
     </div>
+    
 </section>
 
 <section>
     <!--Texto-->
     <div class="row justify-content-center mt-4">
         <div class="col-lg-4 col-md-4 text-center">
-            <h2>Discover our points of sale</h2>
-            <p>Cu eum meis dictas, an per mentitum aliquando intellegam. Et vix consul regione. At nec accusam omnesque, rebum recteque vel ex.</p>
+            <h2><?php the_field('section1_title')?></h2>
+            <?php                
+                $section1_text_area = get_post_meta( get_the_ID(), 'section1_text_area', true);
+                echo "<p>".$section1_text_area."</p>";
+             ?>
         </div>
     </div>
 

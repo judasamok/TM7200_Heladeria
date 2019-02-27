@@ -8,7 +8,11 @@
    <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-5 col-md-5 marginLogo">
-            <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png" alt="Logo">
+            <?php 
+                $logo = get_field('header_logo');
+                if( !empty($logo) ): ?>
+                    <img class="img-fluid" src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" />
+            <?php endif; ?> 
          </div>
       </div>
    </div>
@@ -17,12 +21,19 @@
     <div class="container headerMargin">
         <div class="row justify-content-center">
             <div class="col-4-lg col-4-md col-4-sm mt-4">
-                <h1 class="text-center">Contáctenos</h1>
-                <h3 class="text-center">Realiza consultas sobre nuestros<br>productos</h3>
-            </div>
-            <div class="">
-                <img class="img-fluid iconHeader" src="<?php bloginfo('template_directory'); ?>/assets/img/icon06-min.png" alt="Icon Contactos">
-            </div>
+                <?php
+                    $title = get_post_meta( get_the_ID(), 'header_title', true);
+                    echo "<h1 class='text-center'>".$title."</h1>";
+                 ?>
+                <h3 class="text-center"><?php the_field('header_subtitle')?></h3>   
+            </div>            
+        </div>
+        <div class="row justify-content-center">
+            <?php 
+                    $header_icon = get_field('header_icon');
+                    if( !empty($header_icon) ): ?>
+                        <img class="img-fluid iconHeader" src="<?php echo $header_icon['url']; ?>" alt="<?php echo $header_icon['alt']; ?>" />
+                <?php endif; ?>
         </div>
     </div>
 </section>
@@ -32,7 +43,7 @@
     <div class="container my-5">
         <div class="row justify-content-center">
             <div class="col-4-lg col-4-md col-4-sm mt-4 mb-2">
-                <h1 class="text-center">Ventas del Producto</h1>
+                <h2 class="text-center"><?php the_field('form01_title')?></h2>
             </div>
         </div><!--end row-->
         <div class="row justify-content-center">
@@ -40,33 +51,33 @@
                 <form id="contactUs-Sales-Form">
                     <div class="row form-group">
                         <div class="col">
-                            <input type="text" class="form-control formContactUs" name="name" placeholder="Nombre completo" />
+                            <input type="text" class="form-control formContactUs" name="name" placeholder="Nombre completo - ej: Juan Cordero" />
                         </div>
                     </div>
                 
                     <div class="form-group row">
                         <div class="col">
-                            <input type="text" class="form-control  formContactUs" name="email" placeholder="Correo electrónico" />
+                            <input type="text" class="form-control  formContactUs" name="email" placeholder="Correo electrónico - ej: ejemplo@ejemplo.com" />
                         </div>
                     </div>
 
                     <div class="row">
-                        <label class="col labelFormContactUs">Escoge la razón de la compra de nuestros productos</label>                        
+                        <p class="col labelFormContactUs"><?php the_field('form01_question3'); ?></p>                        
                     </div>
 
                     <div class="form-group row">                        
                         <div class="col">
                             <select name="typeSale" id="typeSale" class="form-control  formContactUs">
-                                <option value="Negocio">Negocio</option>
-                                <option value="Evento">Evento</option>
-                                <option value="Personal">Personal</option>
+                                <option value="Negocio"><?php the_field('question03_option01'); ?></option>
+                                <option value="Evento"><?php the_field('question03_option02'); ?></option>
+                                <option value="Personal"><?php the_field('question03_option03'); ?></option>
                             </select>
                         </div>
                     </div>
 
                     <div class="row form-group">
                         <div class="col text-center">
-                            <button type="submit" class="formBtnContactUs">Enviar</button>
+                            <button type="submit" class="formBtnContactUs"><?php the_field('form01_btn'); ?></button>
                         </div>
                     </div>
 
