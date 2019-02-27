@@ -1,14 +1,8 @@
 .imageError{
     background:url('./assets/img/img32-min.png') no-repeat!important;
-    height: 600px;
-    background-size: cover;
+    height: 280px;
+    background-size: contain!important;
     max-width: 100%;
-    /*background-repeat: no-repeat;
-    z-index: -1;
-    position: relative;
-    height: 494px;
-    width: 1499px;
-    background-size: contain;*/
 }
 
 h4{

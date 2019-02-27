@@ -2,6 +2,12 @@
     background-color: $color-pink!important;
 }
 
+.bgParallax{
+    background-color: rgba(0,0,0,0.4);
+    width: 25em;
+    text-align: center!important;
+}
+
 .parallaxFlavors{
     background-color: chartreuse;
     background-attachment: fixed;

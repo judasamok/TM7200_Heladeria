@@ -2,6 +2,17 @@
     background-color: $color-yellow!important;
 }
 
+.promotionBtn{
+    background-color: $color-black;
+    color: $color-white;
+    font-family: 'TreMS'!important;
+    padding: 0.5em 0;
+    text-align: center!important;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+}
+
 .parallaxPromotions{
     background-color: chartreuse;
     background-attachment: fixed;
@@ -15,12 +26,6 @@
     background-image: url('./assets/img/img20-min.png');
 }
 
-.h1{
-    font-family: 'CoconRegular';
-    color: darkblue;
-}
-
-.h3{
-    font-family: 'ChronicDelivery';
-    color: darkblue;
+.pWeight{
+    font-weight: 700;
 }
